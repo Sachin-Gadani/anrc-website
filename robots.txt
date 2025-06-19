@@ -1,1 +1,1 @@
-Sitemap: https://gadani-lab.com/sitemap.xml
+Sitemap: https://sachin-gadani.github.io/anrc-website/sitemap.xml
