@@ -5,6 +5,6 @@
 
   # Sachin-Gadani's Website
 
-  Visit **[gadani-lab.com](https://gadani-lab.com)** 🚀
+  Visit **[sachin-gadani.github.io/anrc-website](https://sachin-gadani.github.io/anrc-website)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
