@@ -1,28 +1,28 @@
 ---
-title: Contact
+title: Contact Us
 nav:
-  order: 5
-  tooltip: Email, address, and location
+  order: 4
+  tooltip: Get in touch with us
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}Contact Us
 
-Our lab is hiring for all levels, including lab technician / manager and post-doctoral associate. Interested individuals should send a brief statement of interest, their CV, and contact for 2-3 professional references to <gadanis1@pitt.edu>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Contact us at <contact@anrc.org> for more information.
 
 {%
   include button.html
   type="email"
-  text="gadanis1@pitt.edu"
-  link="gadanis1@pitt.edu"
+  text="contact@anrc.org"
+  link="contact@anrc.org"
 %}
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps"
-  text="3501 Fifth Avenue 
-BST3, 10051 12A
-Pittsburgh, PA 15260"
-  link="https://maps.app.goo.gl/t3SSqcxyWD2Yyo2g9"
+  tooltip="Our location"
+  text="123 Research Drive
+Suite 456
+Anytown, ST 12345"
+  link="#"
 %}
 
 {% include section.html %}
@@ -32,7 +32,7 @@ Pittsburgh, PA 15260"
 {%
   include figure.html
   image="images/labWindow.jpg"
-  caption="View of Oakland and the Monongahela river from our lab window."
+  caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 %}
 
 {% endcapture %}
@@ -42,7 +42,7 @@ Pittsburgh, PA 15260"
 {%
   include figure.html
   image="images/Downtown_Pittsburgh_from_Duquesne_Incline_in_the_morning.jpg"
-  caption="Downtown Pittsburgh from the Duqesne Incline. (Dllu, Wikimedia)"
+  caption="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 %}
 
 {% endcapture %}
@@ -52,12 +52,11 @@ Pittsburgh, PA 15260"
 {% include section.html dark=true %}
 
 {% capture col1 %}
-The Gadani Lab\
-University of Pittsburgh\
-Department of Neurology, PIND\
-3501 Fifth Avenue\
-BST3, 10051 12A\
-Pittsburgh, PA 15260\
+ANRC\
+Autoimmune Neurology Research Consortium\
+123 Research Drive\
+Suite 456\
+Anytown, ST 12345\
 
 {% endcapture %}
 

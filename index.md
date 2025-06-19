@@ -1,8 +1,8 @@
 ---
 ---
 
-# Translational Neuroimmunology lab @ Pitt
-While there are several effective treatments for relapsing multiple sclerosis, no available therapy substantially slows progression. Chronic, non-resolving brain and glial cell inflammation underlies this progression. Our goal is to unravel the neuroimmunology of progressive multiple sclerosis and other conditions to inspire the next generation of therapies. 
+# Autoimmune Neurology Research Consortium
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 
 {% include section.html %}
 
@@ -12,8 +12,8 @@ While there are several effective treatments for relapsing multiple sclerosis, n
 
 {%
   include button.html
-  link="research"
-  text="See our publications"
+  link="about"
+  text="Learn about us"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -24,8 +24,8 @@ While there are several effective treatments for relapsing multiple sclerosis, n
 {%
   include feature.html
   image="images/index_research_ng2_dsred_cx3cr1_gfp_il33_647.png"
-  link="research"
-  title="Our Research"
+  link="about"
+  title="About Us"
   text=text
 %}
 
@@ -33,8 +33,8 @@ While there are several effective treatments for relapsing multiple sclerosis, n
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="mission"
+  text="Discover our mission"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -45,8 +45,8 @@ While there are several effective treatments for relapsing multiple sclerosis, n
 {%
   include feature.html
   image="images/index_projects_spatial_transcriptomics_representative.png"
-  link="projects"
-  title="Our Projects"
+  link="mission"
+  title="Our Mission"
   flip=true
   style="bare"
   text=text
@@ -54,7 +54,7 @@ While there are several effective treatments for relapsing multiple sclerosis, n
 
 {% capture text %}
 
-The Gadani Lab is hiring at all levels, contact gadanis1@pitt.edu for more details! 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
 {%
   include button.html

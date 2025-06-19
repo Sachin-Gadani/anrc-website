@@ -1,19 +1,19 @@
 # site properties and page defaults
-title: The Gadani Lab
-subtitle: Translational Neuroimmunology Research at Pitt
-description: Neuroimmunology research group at the University of Pittsburgh. Unraveling the neuroimmunology of progressive multiple sclerosis and other conditions to inspire the next generation of treatments.
+title: ANRC
+subtitle: Autoimmune Neurology Research Consortium
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
 header: images/background.png
 footer: images/background.png
 proofer: false
 
 # site social media and other links
 links:
-  email: gadanis1@pitt.edu
-  orcid: 0000-0002-9555-4553
-  google-scholar: https://scholar.google.com/citations?user=RTnqJjAAAAAJ&hl=en
-  github: https://github.com/Sachin-Gadani/
-  twitter: https://x.com/SachinGadani
-  bluesky: https://bsky.app/profile/saching.bsky.social
+  email: contact@anrc.org
+  # orcid: 0000-0000-0000-0000
+  # google-scholar: https://scholar.google.com/
+  # github: https://github.com/anrc/
+  # twitter: https://x.com/anrc
+  # bluesky: https://bsky.app/profile/anrc.bsky.social
 
 ### jekyll settings
 

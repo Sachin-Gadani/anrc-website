@@ -1,9 +1,9 @@
 ---
-name: Henry McCoy
-image: images/beast.png
+name: Dr. Jane Doe
+image: images/photo.jpg
 role: staff
-group: alum
-alias: Beast 
+group: current
+alias: Jane 
 ---
 
-"Well what are we waiting for? Just your ordinary bottomless chasm!"
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
