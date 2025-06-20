@@ -1,6 +1,6 @@
 # site properties and page defaults
-title: ANRC
-subtitle: Autoimmune Neurology Research Consortium
+title: false
+subtitle: false
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
 header: images/background.png
 footer: images/background.png
