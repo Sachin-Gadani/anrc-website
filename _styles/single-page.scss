@@ -1,0 +1,180 @@
+---
+---
+
+/* Modern sleek section styling */
+section {
+  min-height: auto !important;
+  padding: 4rem 0 !important;
+  position: relative;
+}
+
+/* Refined header styling */
+section h1 {
+  font-size: 2.5rem !important;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem 0 !important;
+  color: var(--text);
+  text-shadow: none !important;
+}
+
+section h2 {
+  font-size: 1.5rem !important;
+  font-weight: 500;
+  margin: 2.5rem 0 1rem 0 !important;
+  color: var(--primary);
+  letter-spacing: -0.01em;
+}
+
+section p {
+  font-size: 1.1rem !important;
+  line-height: 1.7 !important;
+  margin-bottom: 1.5rem !important;
+  max-width: 700px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  color: var(--text);
+  font-weight: 400;
+}
+
+/* Clean section backgrounds */
+#about {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(147, 51, 234, 0.05) 100%);
+  border-left: 4px solid var(--primary);
+  position: relative;
+}
+
+#mission {
+  background: var(--background);
+  position: relative;
+}
+
+#mission::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 1px;
+  background: var(--primary);
+  opacity: 0.3;
+}
+
+#team {
+  background: rgba(248, 250, 252, 0.8);
+  position: relative;
+}
+
+#contact {
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.95) 100%);
+  color: white;
+}
+
+#contact h1, #contact h2, #contact p {
+  color: white !important;
+}
+
+/* Subtle section dividers */
+.section-divider {
+  height: 3rem;
+  background: linear-gradient(90deg, transparent 0%, rgba(59, 130, 246, 0.1) 50%, transparent 100%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-divider::after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--primary) 50%, transparent 100%);
+  opacity: 0.4;
+}
+
+/* Improved content containers */
+.section-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Enhanced visual hierarchy */
+.section-intro {
+  font-size: 1.25rem;
+  color: rgba(100, 116, 139, 1);
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Refined icon styling */
+.fa-solid, .fa-regular {
+  margin-right: 0.75rem;
+  opacity: 0.8;
+  font-size: 0.9em;
+}
+
+/* Additional modern styling touches */
+.section-content {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Enhanced button styling */
+.button {
+  border-radius: 8px !important;
+  padding: 12px 24px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.01em !important;
+  transition: all 0.2s ease !important;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}
+
+/* Card and portrait styling improvements */
+.portrait, .card {
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
+}
+
+.portrait:hover, .card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  section h1 {
+    font-size: 2rem !important;
+  }
+  
+  section h2 {
+    font-size: 1.3rem !important;
+  }
+  
+  .section-intro {
+    font-size: 1.1rem !important;
+  }
+  
+  .section-content {
+    padding: 0 1rem !important;
+  }
+}

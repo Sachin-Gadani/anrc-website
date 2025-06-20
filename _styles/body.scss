@@ -13,3 +13,12 @@ body {
   text-align: center;
   line-height: var(--compact);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 80px;
+  margin-top: -80px;
+}
