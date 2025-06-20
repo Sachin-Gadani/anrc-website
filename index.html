@@ -43,22 +43,22 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>ANRC</title>
+<title></title>
 
 <link rel="icon" href="">
 
 <meta name="title" content="">
-<meta name="description" content="Autoimmune Neurology Research Consortium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.">
+<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.">
 
 <meta property="og:title" content="">
-<meta property="og:site_title" content="ANRC">
-<meta property="og:description" content="Autoimmune Neurology Research Consortium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.">
+<meta property="og:site_title" content="false">
+<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.">
 <meta property="og:url" content="https://sachin-gadani.github.io/anrc-website">
 <meta property="og:image" content="">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="">
-<meta property="twitter:description" content="Autoimmune Neurology Research Consortium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.">
+<meta property="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.">
 <meta property="twitter:url" content="https://sachin-gadani.github.io/anrc-website">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="">
@@ -74,7 +74,7 @@
       "@type": "WebSite",
     
     "name": "",
-    "description": "Autoimmune Neurology Research Consortium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
     "headline": "",
     "publisher": {
       "@type": "Organization",
@@ -367,6 +367,8 @@
 
   <script src="/anrc-website/_scripts/site-search.js"></script>
 
+  <script src="/anrc-website/_scripts/sticky-nav.js"></script>
+
   <script src="/anrc-website/_scripts/table-wrap.js"></script>
 
   <script src="/anrc-website/_scripts/tooltip.js"></script>
@@ -385,17 +387,9 @@
 
 <header class="background" style="--image: url('/anrc-website/images/background.png')" data-dark="true" data-big>
   <a href="/anrc-website/" class="home">
-    
-    
-      <span class="title-text" data-tooltip="Home">
-        
-          <span class="title">ANRC</span>
-        
-        
-          <span class="subtitle">Autoimmune Neurology Research Consortium</span>
-        
-      </span>
-    
+    <span class="logo">
+      <img src="/anrc-website/images/ANRC_logo_with_text.png" alt="ANRC Logo" style="height: 50px;">
+    </span>
   </a>
 
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
@@ -403,6 +397,7 @@
   <nav>
     <a href="#about" data-tooltip="About ANRC">About Us</a>
     <a href="#mission" data-tooltip="Our mission and goals">Mission</a>
+    <a href="#research" data-tooltip="Our research and projects">Our Research</a>
     <a href="#team" data-tooltip="Meet our team">Team</a>
     <a href="#contact" data-tooltip="Get in touch with us">Contact Us</a>
   </nav>
@@ -426,10 +421,24 @@
   
 
   <section class="background" data-size="page">
-    <div style="padding: 6rem 2rem; text-align: center; background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(147, 51, 234, 0.08) 100%);">
+    <!-- Sticky Navigation Header -->
+<div class="sticky-nav" id="stickyNav">
+  <a href="#" class="logo" onclick="scrollToTop(); return false;">
+    <img src="images/ANRC_logo_with_text.png" alt="ANRC Logo">
+  </a>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#mission">Mission</a>
+    <a href="#research">Our Research</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+</div>
+
+<div style="padding: 6rem 2rem; text-align: center; background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(147, 51, 234, 0.08) 100%);">
 
 <h1 style="font-size: 3rem; font-weight: 300; letter-spacing: -0.03em; margin: 0 0 2rem 0; color: var(--text);">
-Autoimmune Neurology Research Consortium
+Welcome to ANRC
 </h1>
 
 <div style="font-size: 1.25rem; margin: 0 auto; max-width: 600px; line-height: 1.6; color: rgba(100, 116, 139, 1); font-weight: 400;">
@@ -450,27 +459,29 @@ Advancing the understanding and treatment of autoimmune neurological conditions 
   <size></size>
 -->
 
-<section id="about" class="section-content">
+<div id="about">
+<section class="section-content">
 
-  <h1 id="about-us">About Us</h1>
+    <h1 id="about-us">About Us</h1>
 
-  <div class="section-intro">
+    <div class="section-intro">
 Understanding autoimmune neurology through collaborative research and innovative approaches to advance treatment and care.
 </div>
 
-  <h2 id="our-organization">Our Organization</h2>
+    <h2 id="our-organization">Our Organization</h2>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
-  <h2 id="history">History</h2>
+    <h2 id="history">History</h2>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-  <h2 id="vision">Vision</h2>
+    <h2 id="vision">Vision</h2>
 
-  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 
-</section>
+  </section>
+</div>
   </section>
 
   
@@ -507,6 +518,44 @@ Advancing the understanding and treatment of autoimmune neurological conditions 
   <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
 
 </section>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<div class="section-divider"></div>
+
+<div id="research">
+<section class="section-content">
+
+    <h1 id="our-research">Our Research</h1>
+
+    <div class="section-intro">
+Exploring cutting-edge approaches to understand and treat autoimmune neurological conditions through innovative research methodologies.
+</div>
+
+    <h2 id="research-areas">Research Areas</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+    <h2 id="current-projects">Current Projects</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+    <h2 id="publications">Publications</h2>
+
+    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+
+  </section>
+</div>
   </section>
 
   
@@ -592,17 +641,18 @@ Meet the dedicated researchers and professionals driving innovation in autoimmun
   <size>1</size>
 -->
 
-<section id="contact" class="section-content">
+<div id="contact">
+<section class="section-content">
 
-  <h1 id="contact-us">Contact Us</h1>
+    <h1 id="contact-us">Contact Us</h1>
 
-  <div class="section-intro">
+    <div class="section-intro">
 Connect with our team to learn more about our research initiatives and collaboration opportunities.
 </div>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Contact us at <a href="mailto:contact@anrc.org">contact@anrc.org</a> for more information.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Contact us at <a href="mailto:contact@anrc.org">contact@anrc.org</a> for more information.</p>
 
-  <div class="button-wrapper">
+    <div class="button-wrapper">
     <a class="button" href="mailto:contact@anrc.org" data-tooltip="Email" data-style="" aria-label="Email">
       <i class="icon fa-solid fa-envelope"></i>
       
@@ -611,7 +661,7 @@ Connect with our team to learn more about our research initiatives and collabora
     </a>
   </div>
 
-  <div class="button-wrapper">
+    <div class="button-wrapper">
     <a class="button" href="/anrc-website/" data-tooltip="Our location" data-style="" aria-label="Our location">
       <i class="icon fa-solid fa-map-location-dot"></i>
       
@@ -622,7 +672,7 @@ Anytown, ST 12345</span>
     </a>
   </div>
 
-  <div class="cols" style="--cols: 2">
+    <div class="cols" style="--cols: 2">
   
     
     <div>
@@ -664,7 +714,7 @@ Anytown, ST 12345</span>
   
 </div>
 
-  <div style="margin-top: 3rem; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 8px;">
+    <div style="margin-top: 3rem; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 8px;">
 
 **ANRC**  
 Autoimmune Neurology Research Consortium  
@@ -673,7 +723,8 @@ Anytown, ST 12345
 
 </div>
 
-</section>
+  </section>
+</div>
   </section>
 
 
@@ -709,11 +760,7 @@ Anytown, ST 12345
 
   <div>
     © 2025
-    ANRC
-      |   Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a>
+    false
   </div>
 
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
