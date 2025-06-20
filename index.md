@@ -18,11 +18,11 @@
 <div style="padding: 6rem 2rem; text-align: center; background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(147, 51, 234, 0.08) 100%);">
 
 <h1 style="font-size: 3rem; font-weight: 300; letter-spacing: -0.03em; margin: 0 0 2rem 0; color: var(--text);">
-Welcome to ANRC
+{{ site.data.content.hero.title }}
 </h1>
 
 <div style="font-size: 1.25rem; margin: 0 auto; max-width: 600px; line-height: 1.6; color: rgba(100, 116, 139, 1); font-weight: 400;">
-Advancing the understanding and treatment of autoimmune neurological conditions through collaborative research and innovative scientific approaches.
+{{ site.data.content.hero.description }}
 </div>
 
 </div> 
@@ -32,23 +32,23 @@ Advancing the understanding and treatment of autoimmune neurological conditions 
 <div id="about">
 <section class="section-content" markdown="1">
 
-# About Us
+# {{ site.data.content.about.title }}
 
 <div class="section-intro">
-Understanding autoimmune neurology through collaborative research and innovative approaches to advance treatment and care.
+{{ site.data.content.about.intro }}
 </div>
 
-## Our Organization
+## {{ site.data.content.about.organization.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+{{ site.data.content.about.organization.content }}
 
-## History
+## {{ site.data.content.about.history.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{{ site.data.content.about.history.content }}
 
-## Vision
+## {{ site.data.content.about.vision.title }}
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+{{ site.data.content.about.vision.content }}
 
 </section>
 </div>
@@ -59,23 +59,23 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 <section id="mission" class="section-content" markdown="1">
 
-# Mission
+# {{ site.data.content.mission.title }}
 
 <div class="section-intro">
-Advancing the understanding and treatment of autoimmune neurological conditions through research excellence and collaborative innovation.
+{{ site.data.content.mission.intro }}
 </div>
 
-## Our Mission
+## {{ site.data.content.mission.our_mission.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+{{ site.data.content.mission.our_mission.content }}
 
-## Goals
+## {{ site.data.content.mission.goals.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{{ site.data.content.mission.goals.content }}
 
-## Values
+## {{ site.data.content.mission.values.title }}
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+{{ site.data.content.mission.values.content }}
 
 </section>
 
@@ -86,23 +86,23 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 <div id="research">
 <section class="section-content" markdown="1">
 
-# Our Research
+# {{ site.data.content.research.title }}
 
 <div class="section-intro">
-Exploring cutting-edge approaches to understand and treat autoimmune neurological conditions through innovative research methodologies.
+{{ site.data.content.research.intro }}
 </div>
 
-## Research Areas
+## {{ site.data.content.research.research_areas.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+{{ site.data.content.research.research_areas.content }}
 
-## Current Projects
+## {{ site.data.content.research.current_projects.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{{ site.data.content.research.current_projects.content }}
 
-## Publications
+## {{ site.data.content.research.publications.title }}
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+{{ site.data.content.research.publications.content }}
 
 </section>
 </div>
@@ -113,13 +113,13 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 <section id="team" class="section-content" markdown="1">
 
-# Team
+# {{ site.data.content.team.title }}
 
 <div class="section-intro">
-Meet the dedicated researchers and professionals driving innovation in autoimmune neurology research.
+{{ site.data.content.team.intro }}
 </div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{{ site.data.content.team.content }}
 
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 {% include list.html data="members" component="portrait" filter="role != 'pi'" %}
@@ -131,27 +131,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div id="contact">
 <section class="section-content" markdown="1">
 
-# Contact Us
+# {{ site.data.content.contact.title }}
 
 <div class="section-intro">
-Connect with our team to learn more about our research initiatives and collaboration opportunities.
+{{ site.data.content.contact.intro }}
 </div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Contact us at <contact@anrc.org> for more information.
+{{ site.data.content.contact.content }}
 
 {%
   include button.html
   type="email"
-  text="contact@anrc.org"
-  link="contact@anrc.org"
+  text=site.data.content.contact.email
+  link=site.data.content.contact.email
 %}
 {%
   include button.html
   type="address"
   tooltip="Our location"
-  text="123 Research Drive
-Suite 456
-Anytown, ST 12345"
+  text=site.data.content.contact.address.line1
   link="#"
 %}
 
@@ -160,7 +158,7 @@ Anytown, ST 12345"
 {%
   include figure.html
   image="images/labWindow.jpg"
-  caption="Our research facilities support cutting-edge investigations."
+  caption=site.data.content.contact.images.lab_caption
 %}
 
 {% endcapture %}
@@ -170,7 +168,7 @@ Anytown, ST 12345"
 {%
   include figure.html
   image="images/Downtown_Pittsburgh_from_Duquesne_Incline_in_the_morning.jpg"
-  caption="Located in a vibrant research community."
+  caption=site.data.content.contact.images.location_caption
 %}
 
 {% endcapture %}
@@ -179,10 +177,9 @@ Anytown, ST 12345"
 
 <div style="margin-top: 3rem; padding: 2rem; background: rgba(255,255,255,0.1); border-radius: 8px;">
 
-**ANRC**  
-Autoimmune Neurology Research Consortium  
-123 Research Drive, Suite 456  
-Anytown, ST 12345  
+**{{ site.data.content.contact.footer_info.organization }}**  
+{{ site.data.content.contact.footer_info.full_name }}  
+{{ site.data.content.contact.footer_info.address_block }}  
 
 </div>
 

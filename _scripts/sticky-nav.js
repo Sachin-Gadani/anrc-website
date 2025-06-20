@@ -1,14 +1,5 @@
 // Sticky navigation functionality
 window.addEventListener('load', function() {
-    // Debug: Test if all sections exist on page load
-    console.log('=== SECTION DEBUG TEST ===');
-    const testSections = ['about', 'mission', 'research', 'team', 'contact'];
-    testSections.forEach(id => {
-        const element = document.getElementById(id);
-        console.log(`Section "${id}":`, element ? 'FOUND' : 'NOT FOUND');
-    });
-    console.log('=== END DEBUG TEST ===');
-    
     const stickyNav = document.getElementById('stickyNav');
     
     if (!stickyNav) return;
@@ -37,16 +28,6 @@ window.addEventListener('load', function() {
     function updateActiveNav() {
         const sections = ['about', 'mission', 'research', 'team', 'contact'];
         const stickyNavLinks = stickyNav.querySelectorAll('nav a');
-        
-        // Debug: Check which sections exist
-        sections.forEach(sectionId => {
-            const section = document.getElementById(sectionId);
-            if (!section) {
-                console.log('Section not found:', sectionId);
-            } else {
-                console.log('Section found:', sectionId);
-            }
-        });
         
         let activeSection = '';
         

@@ -1,0 +1,89 @@
+# ANRC Website Content Master Document
+# Edit this file to update all website content
+# Changes will automatically appear on the website when the site is rebuilt
+
+# Hero Section
+hero:
+  title: "Welcome to ANRC"
+  description: "Advancing the understanding and treatment of autoimmune neurological conditions through collaborative research and innovative scientific approaches."
+
+# About Us Section
+about:
+  title: "About Us"
+  intro: "Understanding autoimmune neurology through collaborative research and innovative approaches to advance treatment and care."
+  
+  organization:
+    title: "Our Organization"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  
+  history:
+    title: "History"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  
+  vision:
+    title: "Vision"
+    content: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+
+# Mission Section
+mission:
+  title: "Mission"
+  intro: "Advancing the understanding and treatment of autoimmune neurological conditions through research excellence and collaborative innovation."
+  
+  our_mission:
+    title: "Our Mission"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  
+  goals:
+    title: "Goals"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  
+  values:
+    title: "Values"
+    content: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+
+# Research Section
+research:
+  title: "Our Research"
+  intro: "Exploring cutting-edge approaches to understand and treat autoimmune neurological conditions through innovative research methodologies."
+  
+  research_areas:
+    title: "Research Areas"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  
+  current_projects:
+    title: "Current Projects"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  
+  publications:
+    title: "Publications"
+    content: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+
+# Team Section
+team:
+  title: "Team"
+  intro: "Meet the dedicated researchers and professionals driving innovation in autoimmune neurology research."
+  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+# Contact Section
+contact:
+  title: "Contact Us"
+  intro: "Connect with our team to learn more about our research initiatives and collaboration opportunities."
+  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Contact us at contact@anrc.org for more information."
+  
+  email: "contact@anrc.org"
+  
+  address:
+    line1: "123 Research Drive"
+    line2: "Suite 456"
+    line3: "Anytown, ST 12345"
+  
+  images:
+    lab_caption: "Our research facilities support cutting-edge investigations."
+    location_caption: "Located in a vibrant research community."
+  
+  footer_info:
+    organization: "ANRC"
+    full_name: "Autoimmune Neurology Research Consortium"
+    address_block: |
+      123 Research Drive, Suite 456
+      Anytown, ST 12345
