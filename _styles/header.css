@@ -5,15 +5,18 @@ header {
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
-  box-shadow: var(--shadow);
+  background: rgba(248, 250, 252, 0.95) !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: sticky !important;
   top: 0;
   z-index: 10 !important;
 }
 
 header a {
-  color: var(--text);
+  color: #1f2937 !important;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .home {
@@ -27,12 +30,23 @@ header a {
 }
 
 .logo {
-  height: 40px;
+  height: 80px;
 }
 
 .logo > * {
   width: unset;
   height: 100%;
+}
+
+.organization-name {
+  font-family: var(--heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d5016;
+  text-align: center;
+  margin-top: 0.5rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .title-text {
@@ -61,7 +75,7 @@ header a {
   width: 30px;
   height: 30px;
   margin: 0;
-  color: var(--text);
+  color: #1f2937;
   appearance: none;
   transition: background var(--transition);
 }
@@ -71,7 +85,7 @@ header a {
   position: absolute;
   left: 50%;
   top: 50%;
-  color: var(--text);
+  color: #1f2937 !important;
   font-size: 15px;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
@@ -93,11 +107,16 @@ nav {
 }
 
 nav > a {
-  padding: 5px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  color: #1f2937 !important;
+  font-weight: 600;
 }
 
 nav > a:hover {
-  color: var(--primary);
+  background: rgba(45, 80, 22, 0.1);
+  color: var(--primary) !important;
 }
 
 @media (max-width: 700px) {
@@ -132,6 +151,10 @@ header[data-big] .logo {
   height: 80px;
   flex-shrink: 0;
 }
+header[data-big] .organization-name {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
 header[data-big] .title-text {
   flex-direction: column;
   align-items: center;
@@ -142,6 +165,17 @@ header[data-big] .title {
 }
 header[data-big] .subtitle {
   font-size: var(--large);
+}
+
+@media (max-width: 700px) {
+  .organization-name {
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+  }
+  header[data-big] .organization-name {
+    font-size: 1.1rem;
+    margin-top: 0.8rem;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */
