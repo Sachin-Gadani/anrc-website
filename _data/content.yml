@@ -4,71 +4,79 @@
 
 # Hero Section
 hero:
-  title: "Answers that impact patient care today"
-  description: "The ANRC brings together experts from around the country to address pressing questions in autoimmune neurologic disease"
+  title: "Transforming Autoimmune Neurology"
+  subtitle: "One Discovery at a Time"
+  description: "Leading experts. Breakthrough research. Better outcomes for patients with autoimmune neurological conditions."
 
 # About Us Section
 about:
   title: "About Us"
-  intro: "Understanding autoimmune neurology through collaborative research and innovative approaches to advance treatment and care."
+  intro: "A national consortium advancing the understanding and treatment of autoimmune neurological conditions through collaborative research and innovation."
   
   organization:
     title: "Our Organization"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    content: "The Autoimmune Neurology Research Consortium brings together leading researchers, clinicians, and institutions across the United States to tackle the most pressing challenges in autoimmune neurology. We unite diverse expertise to accelerate discoveries that improve patient outcomes and quality of life."
   
   history:
-    title: "History"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    title: "Our Foundation"
+    content: "Founded to address the urgent need for coordinated research in autoimmune neurological conditions, ANRC emerged from the recognition that collaborative science produces breakthrough results. We built our consortium on the principle that patients deserve faster access to innovative treatments and better care."
   
   vision:
-    title: "Vision"
-    content: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+    title: "Our Vision"
+    content: "We envision a future where autoimmune neurological conditions are understood, prevented, and effectively treated. Through our collaborative research network, we're working to transform how these conditions are diagnosed, managed, and ultimately cured."
 
 # Mission Section
 mission:
-  title: "Mission"
+  title: "Our Mission"
   intro: "Advancing the understanding and treatment of autoimmune neurological conditions through research excellence and collaborative innovation."
   
   our_mission:
-    title: "Our Mission"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    title: "What We Do"
+    content: "We accelerate the discovery of new treatments and cures for autoimmune neurological conditions by fostering collaboration among the nation's leading researchers. Our consortium breaks down traditional barriers to create a unified approach to tackling these complex conditions that affect millions of Americans."
   
   goals:
-    title: "Goals"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    title: "Our Impact"
+    content: "Every day, we work toward faster diagnoses, more effective treatments, and better quality of life for patients with autoimmune neurological conditions. We translate scientific discoveries into clinical advances that reach patients sooner and with greater impact than traditional research approaches allow."
   
   values:
-    title: "Values"
-    content: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    title: "Our Values"
+    content: "Patient-centered research drives everything we do. We believe in open collaboration, scientific rigor, and the power of diverse perspectives to solve complex problems. Transparency, innovation, and urgency guide our work as we pursue breakthroughs that can't wait."
 
 # Research Section
 research:
   title: "Our Research"
-  intro: "Exploring cutting-edge approaches to understand and treat autoimmune neurological conditions through innovative research methodologies."
+  intro: "Pioneering collaborative research that transforms our understanding of autoimmune neurological conditions and accelerates the path to better treatments."
   
   research_areas:
-    title: "Research Areas"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    title: "Research Focus"
+    content: "Our consortium investigates the full spectrum of autoimmune neurological conditions, from multiple sclerosis and neuromyelitis optica to rare encephalitis syndromes. We combine cutting-edge laboratory research with large-scale clinical studies to uncover new therapeutic targets and treatment strategies."
   
   current_projects:
-    title: "Current Projects"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    title: "Active Initiatives"
+    content: "We're currently leading multi-site clinical trials, biomarker discovery studies, and innovative treatment development programs. Our researchers are investigating novel immunotherapies, developing better diagnostic tools, and creating personalized treatment approaches that could revolutionize patient care."
   
   publications:
-    title: "Publications"
-    content: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    title: "Scientific Impact"
+    content: "Our collaborative research generates high-impact publications in leading scientific journals, contributing essential knowledge to the global research community. We're committed to sharing our findings openly to accelerate progress for all researchers working in autoimmune neurology."
+  
+  featured_publication:
+    title: "Featured Research"
+    paper_title: "Neurologic Outcomes in People with Multiple Sclerosis Treated with Immune Checkpoint Inhibitors"
+    authors: "Quinn CM, Rajarajan P, Gill AJ, Kopinsky H, Wolf AB, Soares de Camargo C, Lamb J, Bacon TE, Murray JC, Probasco JC, Galetta KM, Kantor D, Coyle P, Bhise V, Alvarez E, Conway SE, Bhattacharyya S, Kister I"
+    description: "This comprehensive study represents the first systematic analysis of neurological safety outcomes in multiple sclerosis (MS) patients receiving immune checkpoint inhibitor (ICI) therapy for concurrent malignancies. Through a retrospective multicenter cohort study involving 31 MS patients treated with ICIs, we investigated the complex interactions between cancer immunotherapy and pre-existing autoimmune neuroinflammation. The study utilized standardized neurological assessments, MRI imaging protocols, and immunological biomarker analysis to evaluate both MS disease activity and treatment-related neurological adverse events. Key findings demonstrate that while ICI therapy can potentially exacerbate MS symptoms in a subset of patients, careful monitoring and interdisciplinary management approaches can mitigate these risks. The research provides evidence-based guidance for oncologists and neurologists managing this challenging patient population, establishing monitoring protocols and risk stratification strategies that balance cancer treatment efficacy with neurological safety."
+    link: "https://pubmed.ncbi.nlm.nih.gov/39541548/"
 
 # Team Section
 team:
-  title: "Team"
-  intro: "Meet the dedicated researchers and professionals driving innovation in autoimmune neurology research."
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  title: "Our Team"
+  intro: "World-class researchers, clinicians, and innovators united by a shared commitment to transforming autoimmune neurology."
+  content: "Our consortium brings together leading experts from premier research institutions across the United States. Each member contributes unique expertise and perspective, creating a powerful collaborative network that accelerates discovery and advances patient care."
 
 # Contact Section
 contact:
-  title: "Contact Us"
-  intro: "Connect with our team to learn more about our research initiatives and collaboration opportunities."
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Contact us at contact@anrc.org for more information."
+  title: "Get Involved"
+  intro: "Join us in transforming the future of autoimmune neurology research and patient care."
+  content: "Whether you're a researcher interested in collaboration, a clinician seeking partnership opportunities, or a supporter wanting to make a difference, we'd love to hear from you. Together, we can accelerate discoveries that change lives."
   
   email: "contact@anrc.org"
   

@@ -1,10 +1,10 @@
 ---
 ---
 
-<!-- Sticky Navigation Header -->
+<!-- Sticky Navigation Header that appears on scroll -->
 <div class="sticky-nav" id="stickyNav">
   <a href="#" class="logo" onclick="scrollToTop(); return false;">
-    <img src="images/ANRC_logo_with_text.png" alt="ANRC Logo">
+    <img src="images/logo2.png" alt="ANRC Logo">
   </a>
   <nav>
     <a href="#about">About Us</a>
@@ -15,19 +15,19 @@
   </nav>
 </div>
 
-<div style="padding: 6rem 2rem; text-align: center; background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(147, 51, 234, 0.08) 100%);">
-
-<h1 style="font-size: 3rem; font-weight: 300; letter-spacing: -0.03em; margin: 0 0 2rem 0; color: var(--text);">
-{{ site.data.content.hero.title }}
-</h1>
-
-<div style="font-size: 1.25rem; margin: 0 auto; max-width: 600px; line-height: 1.6; color: rgba(100, 116, 139, 1); font-weight: 400;">
-{{ site.data.content.hero.description }}
+<div class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">
+      {{ site.data.content.hero.title }}
+    </h1>
+    <h2 class="hero-subtitle">
+      {{ site.data.content.hero.subtitle }}
+    </h2>
+    <p class="hero-description">
+      {{ site.data.content.hero.description }}
+    </p>
+  </div>
 </div>
-
-</div> 
-
-{% include section.html %}
 
 <div id="about">
 <section class="section-content" markdown="1">
@@ -38,26 +38,39 @@
 {{ site.data.content.about.intro }}
 </div>
 
-## {{ site.data.content.about.organization.title }}
+<div class="about-columns">
+  <div class="about-column">
+    <h2>{{ site.data.content.about.organization.title }}</h2>
+    <p>{{ site.data.content.about.organization.content }}</p>
+  </div>
+  
+  <div class="about-column">
+    <h2>{{ site.data.content.about.history.title }}</h2>
+    <p>{{ site.data.content.about.history.content }}</p>
+  </div>
+  
+  <div class="about-column">
+    <h2>{{ site.data.content.about.vision.title }}</h2>
+    <p>{{ site.data.content.about.vision.content }}</p>
+  </div>
+</div>
 
-{{ site.data.content.about.organization.content }}
-
-## {{ site.data.content.about.history.title }}
-
-{{ site.data.content.about.history.content }}
-
-## {{ site.data.content.about.vision.title }}
-
-{{ site.data.content.about.vision.content }}
+<div class="institution-map-section">
+  <h2>Our National Network</h2>
+  <p>ANRC brings together leading research institutions from across the United States, creating a powerful collaborative network that spans the nation.</p>
+  
+  <!-- Institution map -->
+  <div class="institution-map">
+    <img src="images/ANRC_Institution_Map (March 2025).png" alt="ANRC Collaborating Institutions Map" />
+    <p class="map-caption">ANRC collaborating institutions across the United States, working together to advance autoimmune neurology research</p>
+  </div>
+</div>
 
 </section>
 </div>
 
-{% include section.html %}
-
-<div class="section-divider"></div>
-
-<section id="mission" class="section-content" markdown="1">
+<div id="mission">
+<section class="section-content" markdown="1">
 
 # {{ site.data.content.mission.title }}
 
@@ -78,10 +91,9 @@
 {{ site.data.content.mission.values.content }}
 
 </section>
+</div>
 
 {% include section.html %}
-
-<div class="section-divider"></div>
 
 <div id="research">
 <section class="section-content" markdown="1">
@@ -90,6 +102,17 @@
 
 <div class="section-intro">
 {{ site.data.content.research.intro }}
+</div>
+
+## {{ site.data.content.research.featured_publication.title }}
+
+<div class="featured-publication">
+  <h3>{{ site.data.content.research.featured_publication.paper_title }}</h3>
+  <p class="publication-authors">{{ site.data.content.research.featured_publication.authors }}</p>
+  <p>{{ site.data.content.research.featured_publication.description }}</p>
+  <a href="{{ site.data.content.research.featured_publication.link }}" class="publication-link" target="_blank">
+    <i class="fas fa-external-link-alt"></i> View on PubMed
+  </a>
 </div>
 
 ## {{ site.data.content.research.research_areas.title }}
@@ -107,11 +130,8 @@
 </section>
 </div>
 
-{% include section.html %}
-
-<div class="section-divider"></div>
-
-<section id="team" class="section-content" markdown="1">
+<div id="team">
+<section class="section-content" markdown="1">
 
 # {{ site.data.content.team.title }}
 
@@ -125,6 +145,7 @@
 {% include list.html data="members" component="portrait" filter="role != 'pi'" %}
 
 </section>
+</div>
 
 {% include section.html dark=true %}
 
